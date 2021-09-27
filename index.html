@@ -1,1 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>BOOTstrap</title>
+</head>
+<body>
+  <div class="container-fluid">
+        <div class="row">
+           <div class="col-md-12">
+                <!--navbar-->
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand " href="#">Ayush's</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#verzeo" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="verzeo">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/Ayush05102001?tab=repositories" target="_main">Github</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" >
+                           Certificates
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="certificate.html" target="_main">MyCaption</a></li>
+                          <li><a class="dropdown-item" href="certificate2.html" target="_main">Coursera</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+           </div>
+        </div>
+                      <!--Second row / carasol-->
+            <div class="row">
+                <div class="col-12">
+                  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="photo1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="bc.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="hola.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+             </div>
+  </div>
+  <!--new row/new container-->
+<div class="container" id="about">
+  <div class="row mt-4 mb-2">
+    <div class="col-md-12">
+      <h2 class="text-center text-primary">ABOUT ME</h2>
+      <p class="text-center">My name is <strong>Ayush Bisht</strong>,I am a 19 year old Developer/Student.I am a 3rd year student pursing my Btech in Computer Science and Engineering from SRM,CHENNAI.Apart from that i live in BHOPAL(MADHYA PRADESH)</p>
+      <p class="text-center">Few of my interest includes playing CHESS and reading SELF-MOTIVATION books</p>
+    </div>
+  </div>
+  <div class="row mb-4">
+    <div class="col-12">
+      <h2 class="text-center text-primary">PORTFOLIO</h2>
+    </div>
+  </div>
 
+
+  <!--next row for cards in same contianer-->
+  <div class="row MB-2" id="portfolio">
+    <div class="col-md-4">
+      <div class="card" style="width: 100%;">
+        <img src="photo1.jpg" class="card-img-top" alt="image">
+        <div class="card-body">
+          <h5 class="card-title text-center text-primary">Education</h5>
+          <p class="card-text text-center">Class X(Delhi Public School): 7.8 CGPA</p>
+          <p class="card-text text-center">Class XII(Delhi Public School): 80%</p>
+          <p class="card-text text-center">College (Running 3rd sem): 9.2 GPA</p>
+          <a href="http://www.dpsbhopal.org/" class="btn btn-primary" target="_main">SELECT</a>
+        </div>
+      </div>                      
+    </div>
+
+    <div class="col-md-4">
+      <div class="card" style="width: 100%;">
+        <img src="bc.jpg" class="card-img-top" alt="image">
+        <div class="card-body">
+          <h5 class="card-title text-center text-primary">Internships</h5>
+          <ul>
+            <li class="card-text text-center">CAMPUS AMBASSADOR: MY CAPTION. (aug,2020-oct,2020)</li>
+            <li class="card-text text-center">CURRENT INTERNSHIP: smartknower (aug,2020-oct,2020)</li>
+          </ul>
+          <a href="select.html" class="btn btn-primary" target="_main">SELECT</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card" style="width: 100%;">
+        <img src="hola.jpg" class="card-img-top" alt="image">
+        <div class="card-body">
+          <h5 class="card-title text-center text-primary">GITHUB</h5>
+          <p class="card-text text-center">I started using github few weeks back and i found it a very useful way to not only deploy websites on git server but found it very good in terms of adding and modifying code and as a code base.<strong>CLick down to check my github account.</strong></p>
+          <a href="https://github.com/Ayush05102001?tab=repositories" class="btn btn-primary" target="_main">SELECT</a>
+        </div>
+      </div>
+    </div>
+  </div>  <!--END OD THIS ROW-->
+
+  <div class="row mt-5 mb-3">
+
+    <div class="col-md-5 ">
+                <img src="mountain.jpg"  id="image" class="image-fluid  ms-5">  
+    </div>
+    <div class="col-md-7">
+           <p class="text-center ms-5 mt-2">I am learning new things , one of the things that interest me the most is new front-end designs ,how they work ,how to create them. For this specific website is used html,css,bootstrap and javascript. HOPE you guys like it.</p>
+           <p class="text-center"><strong>Click below to check my HTML/CSS PORTFOLIO!</strong></p>
+           <a href="https://ayush05102001.github.io/practice-template/" target="_main" class="btn btn-primary ">SELECT</a>
+    </div>
+  </div>
+</div>  <!--container2 end here-->
+
+<div class="container-fluid">
+  <div class="row ">
+    <div class="container-fluid ">
+    <div class="col-12 bg-dark text-white ">
+     <p class="text-center pt-3">ayush 2021 &copy; Copyright Alrights reserved.</p>
+    </div>
+    </div>
+  </div>
+</div>
+    
+</body>
+</html>
